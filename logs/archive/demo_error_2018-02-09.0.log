@@ -1,0 +1,114 @@
+479  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 23392 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+482  [main] INFO  com.demo.Demo1Application - The following profiles are active: stage
+4094 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 3.843 seconds (JVM running for 4.455)
+452  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 23515 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+454  [main] INFO  com.demo.Demo1Application - The following profiles are active: stage
+4359 [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-1119]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-1119]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.demo.Demo1Application.main(Demo1Application.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+4391 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 1119 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 1119, or configure this application to listen on another port.
+
+477  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 23687 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+480  [main] INFO  com.demo.Demo1Application - The following profiles are active: stage
+4319 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.174 seconds (JVM running for 4.667)
+500  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 27467 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+504  [main] INFO  com.demo.Demo1Application - The following profiles are active: stage
+4539 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.395 seconds (JVM running for 4.926)
+1664 [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 27798 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+1669 [main] INFO  com.demo.Demo1Application - The following profiles are active: stage
+7374 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 6.746 seconds (JVM running for 9.085)
+572  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 28168 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+575  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+4806 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.632 seconds (JVM running for 5.311)
+435  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 28252 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+438  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+2176 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in com.demo.configuration.MysqlDataSource required a bean of type 'com.demo.configuration.Envconfig' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.demo.configuration.Envconfig' in your configuration.
+
+418  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 28346 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+422  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+2044 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in com.demo.configuration.MysqlDataSource required a bean of type 'com.demo.configuration.Envconfig' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.demo.configuration.Envconfig' in your configuration.
+
+520  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 28409 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+522  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+4379 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.225 seconds (JVM running for 4.84)
+410  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 29522 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+412  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+4257 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.142 seconds (JVM running for 4.563)
+478  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 29653 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+481  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+4412 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.273 seconds (JVM running for 4.765)
+113937 [http-nio-1119-exec-6] INFO  com.demo.service.ActivityService - --------------------role-----------------------com.demo.domain.Role@2641af4d
+113938 [http-nio-1119-exec-6] INFO  com.demo.service.ActivityService - activities assigned successfully
+113938 [http-nio-1119-exec-6] WARN  com.demo.service.ActivityService - No message found under code 'message.success' for locale 'en_IN'.
+434  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 29818 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+436  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+4210 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.09 seconds (JVM running for 4.58)
+14155 [http-nio-1119-exec-2] INFO  com.demo.service.ActivityService - --------------------role-----------------------com.demo.domain.Role@380ec141
+14156 [http-nio-1119-exec-2] INFO  com.demo.service.ActivityService - activities assigned successfully
+14156 [http-nio-1119-exec-2] WARN  com.demo.service.ActivityService - No message found under code 'message.success' for locale 'en_IN'.

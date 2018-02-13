@@ -1,0 +1,315 @@
+925  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 19395 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+933  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+3784 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2762 ms
+6745 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@272a9f6c: startup date [Mon Feb 12 10:41:42 IST 2018]; root of context hierarchy
+6873 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+6875 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+6876 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+6878 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6878 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+6879 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+6880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+6880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+6881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+6885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6886 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6932 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6933 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6993 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7756 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 7.41 seconds (JVM running for 13.527)
+656  [main] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 19677 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+663  [main] INFO  com.demo.Demo1Application - The following profiles are active: dev
+2204 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1496 ms
+3960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1184ab05: startup date [Mon Feb 12 10:45:00 IST 2018]; root of context hierarchy
+4018 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+4020 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+4021 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+4022 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+4023 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+4024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+4024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+4025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+4026 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+4030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+4030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+4059 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4060 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4095 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4350 [main] INFO  com.demo.Demo1Application - Started Demo1Application in 4.106 seconds (JVM running for 5.135)
+118842 [http-nio-1119-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+118856 [http-nio-1119-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+118873 [http-nio-1119-exec-2] WARN  o.s.web.servlet.PageNotFound - Request method 'PUT' not supported
+160734 [http-nio-1119-exec-3] WARN  o.s.web.servlet.PageNotFound - Request method 'PUT' not supported
+174650 [http-nio-1119-exec-4] INFO  com.demo.service.ActivityService - Activity saved successfully ekesh
+209154 [http-nio-1119-exec-5] INFO  com.demo.service.ActivityService - Activity saved successfully bobby
+233408 [http-nio-1119-exec-6] INFO  com.demo.service.ActivityService - Activity saved successfully bob
+1065 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 20390 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+1067 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+3623 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2464 ms
+6259 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72c9409a: startup date [Mon Feb 12 10:51:30 IST 2018]; root of context hierarchy
+6396 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+6397 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+6399 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+6400 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+6401 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6402 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+6402 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+6403 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+6407 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6408 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6466 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6467 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6535 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7081 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 6.538 seconds (JVM running for 7.276)
+24430 [http-nio-1119-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+24448 [http-nio-1119-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+1013 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 20759 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+1015 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+3545 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2411 ms
+6218 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72c9409a: startup date [Mon Feb 12 10:55:42 IST 2018]; root of context hierarchy
+6321 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+6323 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+6323 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+6325 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+6326 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+6326 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6327 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+6327 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+6328 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+6332 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6332 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6375 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6375 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6440 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6945 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 6.452 seconds (JVM running for 7.145)
+13398 [http-nio-1119-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+13420 [http-nio-1119-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+13939 [http-nio-1119-exec-3] INFO  com.demo.service.ActivityService - Activity saved successfully rohit
+60104 [http-nio-1119-exec-2] INFO  com.demo.service.ActivityService - Activity saved successfully sahil
+70125 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 20759 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+70126 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+70530 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 401 ms
+71051 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3edb52a8: startup date [Mon Feb 12 10:56:51 IST 2018]; root of context hierarchy
+71065 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+71066 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+71070 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+71071 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+71073 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+71074 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+71074 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+71075 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+71078 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+71080 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+71099 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+71099 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+71119 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+71280 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 1.238 seconds (JVM running for 71.48)
+84240 [http-nio-1119-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+84244 [http-nio-1119-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+114459 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 20759 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+114459 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+114937 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 475 ms
+115342 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fc9d2ad: startup date [Mon Feb 12 10:57:36 IST 2018]; root of context hierarchy
+115351 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+115352 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+115352 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+115353 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+115354 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+115355 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+115355 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+115356 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+115356 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+115358 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+115359 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+115368 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+115368 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+115387 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+115600 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 1.19 seconds (JVM running for 115.8)
+122214 [http-nio-1119-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+122219 [http-nio-1119-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+122312 [http-nio-1119-exec-2] INFO  com.demo.service.ActivityService - Activity saved successfully akash
+3591300 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 20759 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+3591303 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+3592117 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 800 ms
+3593148 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b7a8b18: startup date [Mon Feb 12 11:55:32 IST 2018]; root of context hierarchy
+3593166 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+3593168 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+3593172 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+3593174 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+3593174 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+3593176 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+3593180 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+3593182 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+3593189 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+3593192 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+3593194 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+3593216 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+3593217 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+3593257 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+3593435 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 2.27 seconds (JVM running for 3594.968)
+595  [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 23948 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+597  [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+2452 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1806 ms
+4556 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ee4b7f: startup date [Mon Feb 12 12:42:31 IST 2018]; root of context hierarchy
+4622 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+4625 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+4626 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+4628 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+4628 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+4629 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+4629 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+4629 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+4630 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+4633 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+4633 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+4663 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4664 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4703 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5070 [restartedMain] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-1119]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-1119]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.demo.Demo1Application.main(Demo1Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+5118 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 1119 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 1119, or configure this application to listen on another port.
+
+518  [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 24061 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+520  [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+2213 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1651 ms
+4301 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@97182e: startup date [Mon Feb 12 12:43:05 IST 2018]; root of context hierarchy
+4368 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+4370 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+4371 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+4372 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+4373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+4374 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+4374 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+4375 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+4376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+4379 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+4380 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+4410 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4411 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4448 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+4784 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 4.584 seconds (JVM running for 5.141)
+2425 [main] INFO  com.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests on abhishek with PID 26441 (started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+2444 [main] INFO  com.demo.Demo1ApplicationTests - The following profiles are active: dev
+2520 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b0d79fc: startup date [Mon Feb 12 13:55:07 IST 2018]; root of context hierarchy
+9545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4b0d79fc: startup date [Mon Feb 12 13:55:07 IST 2018]; root of context hierarchy
+9753 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+9755 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+9756 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+9761 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+9763 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+9764 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+9765 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+9766 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+9767 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+9783 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+9784 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+9885 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+9885 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10102 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10849 [main] INFO  com.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 9.574 seconds (JVM running for 12.67)
+11135 [Thread-4] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4b0d79fc: startup date [Mon Feb 12 13:55:07 IST 2018]; root of context hierarchy
+1927 [main] INFO  com.demo.Demo1ApplicationTests - Starting Demo1ApplicationTests on abhishek with PID 26584 (started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+1929 [main] INFO  com.demo.Demo1ApplicationTests - The following profiles are active: dev
+2032 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4c1909a3: startup date [Mon Feb 12 13:56:32 IST 2018]; root of context hierarchy
+7692 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4c1909a3: startup date [Mon Feb 12 13:56:32 IST 2018]; root of context hierarchy
+7865 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+7867 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+7868 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+7872 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+7873 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+7875 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+7876 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+7882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+7883 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+7895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+7896 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+7979 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7980 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8069 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8507 [main] INFO  com.demo.Demo1ApplicationTests - Started Demo1ApplicationTests in 7.501 seconds (JVM running for 9.356)
+1713 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 26680 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+1715 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+5937 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4056 ms
+9887 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23f5edd1: startup date [Mon Feb 12 13:57:47 IST 2018]; root of context hierarchy
+10068 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+10070 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+10071 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+10073 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+10073 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+10074 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+10075 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+10075 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+10076 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+10080 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10081 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10150 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10153 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10262 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10898 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 10.128 seconds (JVM running for 11.436)
+19569 [http-nio-1119-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+19621 [http-nio-1119-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+4010 [restartedMain] INFO  com.demo.Demo1Application - Starting Demo1Application on abhishek with PID 565 (/home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1/target/classes started by abhishek in /home/abhishek/Documents/workspace-sts-3.9.2.RELEASE/demo-1)
+4027 [restartedMain] INFO  com.demo.Demo1Application - The following profiles are active: dev
+10140 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5911 ms
+18011 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7305cbe3: startup date [Mon Feb 12 17:00:48 IST 2018]; root of context hierarchy
+18172 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/get_activity],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.getactivity()
+18174 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.addactivity(java.lang.String)
+18175 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Activitycontroller.assignActivities(com.demo.DTO.RoleActivityDTO)
+18177 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.addRole(java.lang.String)
+18178 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+18178 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/active_roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getActiveRoles()
+18179 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoleByRoleName(java.lang.String)
+18180 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRolebyRoleId(java.lang.String)
+18180 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.demo.controller.Rolecontroller.getRoles()
+18186 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18187 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18261 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18265 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18417 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19526 [restartedMain] INFO  com.demo.Demo1Application - Started Demo1Application in 17.395 seconds (JVM running for 20.01)
